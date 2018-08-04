@@ -1,0 +1,37 @@
+User and Server
+
+1. user --> server
+    login/logoff
+    status
+2. server --> user
+    online/offline
+3. user --> user
+    direct message
+    boardcast message
+    
+
+Commands:
+
+    login <username> <password>
+    reg <username> <password>
+    logoff
+    msg <user> text.....
+    broadcast text.....
+    multicast <n> user1 user2 ... text...
+    req <user>
+    ac <user>
+
+    show 
+    multicast 3 a b c msg
+    guest : "msg jim Hello world"
+    naimul: "msg guest Hello world"
+
+    @group <-- group chat
+    join @group
+    leave @group
+    
+
+    send: msg @group text...
+    recieve: msg @group:<login> text.... 
+    
+   
